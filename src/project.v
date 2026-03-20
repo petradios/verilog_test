@@ -1,6 +1,6 @@
 `default_nettype none
 
-module tt_um_test (
+module tt_um_verilog_test (
     input  wire [7:0] ui_in,    // ui_in[3:0] είναι ο δυαδικός αριθμός (0-9)
     output wire [7:0] uo_out,   // uo_out[6:0] ελέγχει τα τμήματα a-g της οθόνης
     input  wire [7:0] uio_in,   
